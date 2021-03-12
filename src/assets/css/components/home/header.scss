@@ -1,0 +1,26 @@
+@import '../../variables/variables.scss';
+
+.header-container {
+     height: 5rem;
+     background-color: $mainColor;
+     font-size: $normalFont;
+
+     &-ins {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     &-left {      
+          display: flex;
+          align-items: center;
+
+          &-a {
+               padding-right: 1.5rem;
+               border-right: 2px solid black;
+          }
+     }
+}
+
+
+

@@ -1,0 +1,43 @@
+html {
+  font-family: Helvetica;
+  font-size: 62.5%;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+a {
+  color: black;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+a:hover {
+  text-decoration: none;
+  color: #ca7101;
+}
+
+.header-container {
+  height: 5rem;
+  background-color: #f6eaea;
+  font-size: 1.6rem;
+}
+.header-container-ins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container-left {
+  display: flex;
+  align-items: center;
+}
+.header-container-left-a {
+  padding-right: 1.5rem;
+  border-right: 2px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
